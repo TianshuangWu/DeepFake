@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Fake detect</title>
+    <meta name="description" content="Description of the page">
+    <meta name="author" content="Author Name">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+
+<body>
+    <h1>人脸伪造检测</h1>
+    <p>请上传一张图片</p>
+    <form action="/queryImage" method="post" enctype="multipart/form-data">
+        <input type="file" name="image">
+        <input type="submit" value="上传">
+    </form>
+    <br />
+    <br />
+    <hr />
+    <p>请上传一个视频</p>
+    <form action="/queryVideo" method="post" enctype="multipart/form-data">
+        <input type="file" name="video">
+        <input type="submit" value="上传">
+    </form>
+</body>
+
+</html>
